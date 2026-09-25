@@ -9,9 +9,7 @@ on:
       - "packaging/**"
       - "build.ps1"
       - "CHANGELOG.md"
-      - ".github/workflows/release.yml"
   workflow_dispatch:
-  create:
 
 permissions:
   contents: write
