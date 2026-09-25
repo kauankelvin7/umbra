@@ -11,6 +11,7 @@ on:
       - "CHANGELOG.md"
       - ".github/workflows/release.yml"
   workflow_dispatch:
+  create:
 
 permissions:
   contents: write
